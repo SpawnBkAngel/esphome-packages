@@ -10,4 +10,4 @@ packages:
   # UART config
   uart: !include ../esp01s/uart.yaml
   # Config ESP-12F onboard led as status
-  #status: !include ../esp12e/status-led.yaml
+  status: !include ../esp01s/status-led.yaml
