@@ -1,1 +1,24 @@
-
+climate:
+  - platform: midea
+    icon: mdi:air-conditioner
+    name: None
+    id: midea_climate
+    autoconf: false
+    supported_modes:
+      - FAN_ONLY
+      - HEAT_COOL
+      - COOL
+      - HEAT
+      - DRY
+    custom_fan_modes:
+      - SILENT
+      - TURBO
+    supported_presets:
+      - SLEEP
+      - ECO
+      - BOOST
+    supported_swing_modes:
+      - VERTICAL
+    outdoor_temperature:
+      name: Outdoor Temperature
+      id: midea_outdoor
