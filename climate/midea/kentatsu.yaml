@@ -10,9 +10,6 @@ climate:
       - COOL
       - HEAT
       - DRY
-    custom_fan_modes:
-      - SILENT
-      - TURBO
     supported_presets:
       - SLEEP
       - ECO
