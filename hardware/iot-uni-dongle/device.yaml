@@ -6,8 +6,8 @@ packages:
   # HTTP server config
   web: !include ../../common/web.yaml
   # ESP-12E module minimal config
-  esp8266: !include ../esp12e/esp8266.yaml
+  esp8266: !include ../esp01s/esp8266.yaml
   # UART config
-  uart: !include ../esp12e/uart.yaml
+  uart: !include ../esp01s/uart.yaml
   # Config ESP-12F onboard led as status
   #status: !include ../esp12e/status-led.yaml
