@@ -4,6 +4,8 @@ climate:
     name: None
     id: midea_climate
     autoconf: false
+    visual:
+      temperature_step: 1.0 °C
     supported_modes:
       - FAN_ONLY
       - HEAT_COOL
